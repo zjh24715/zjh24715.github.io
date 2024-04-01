@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+</head>
+<body>
+	<form action="./自创.html" align="center" method="post" target="_black">
+		用户：<input type="text" name="user" required value="曾嘉豪" placeholder="请输入用户名">
+		<br>
+		性别：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="sex" required value="男">男
+		<input type="radio" name="sex" required value="女">女
+		<input type="radio" name="sex" required value="保密" checked>保密
+		<br>
+		账号：<input type="text" name="account" required value="zjh123456" placeholder="请输入账号">
+		<br>
+		密码：<input type="password" name="password" required value="123456" placeholder="请输入密码">
+		<br>
+		学院：<input type="text" name="college" list="college" required placeholder="请选择学院">
+		<br>
+		专业：<input type="text" name="major" list="major" required placeholder="请选择专业">
+		<br>
+		班级：<input type="number" name="class" list="class" required placeholder="请选择班级" min="1">
+		<br>
+		<button>登录</button>
+		<br>
+		<input type="color" name="color">
+		<datalist id="college">
+			<option value="计算机学院"></option>
+			<option value="工学院"></option>
+			<option value="商学院"></option>
+			<option value="航空学院"></option>
+			<option value="外国语学院"></option>
+		</datalist>
+		<datalist id="major">
+			<option value="人工智能"></option>
+			<option value="计算机科学"></option>
+			<option value="软件工程"></option>
+			<option value="电子及其自动化"></option>
+			<option value="电子商务"></option>
+		</datalist>
+		<datalist id="class">
+			<option value="1"></option>
+			<option value="2"></option>
+			<option value="3"></option>
+			<option value="4"></option>
+			<option value="5"></option>
+		</datalist>
+		<br>
+		<input type="week">
+		<br>
+		<input type="datetime-local">
+	</form>
+</body>
+</html>
