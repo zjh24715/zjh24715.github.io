@@ -1,0 +1,103 @@
+body {
+    width: 1920px;
+    height: 2224px;
+}
+
+/* 导航栏 */
+.dhl {
+    display: flex;
+    background-color: #333;
+}
+.dhl ul {
+    display: flex;
+}
+.dhl ul li {
+    height: 70px;
+    width: 100px;
+    line-height: 70px;
+    color: #fff;
+    text-align: center;
+}
+.dhl ul li:hover{
+    background-color: #000;
+}
+
+/* 图片 */
+.headline {
+    width: 1920px;
+    height: 300px;
+    background-image: url(./素材/images/headline.jpg);
+}
+.headline h2 {
+    font-size: 30px;
+    color: #fff;
+}
+.headline p {
+    color: #fff;
+}
+.headline div {
+    height: 300px;
+    padding: 100px 360px;
+}
+
+/* 内容 */
+.content {
+    display: flex;
+}
+.text {
+    padding-left: 50px;
+    width: 1720px;
+}
+.text h2 {
+    border-bottom: 1px dashed #000;
+    height: 80px;
+    line-height: 80px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.text p {
+    font-size: 25px;
+    line-height: 40px;
+    margin: 20px;
+}
+.text li {
+    font-size: 25px;
+    line-height: 40px;
+    margin: 20px;
+}
+.aside {
+    width: 200px;
+}
+
+/* 联系我们 */
+.lxwm {
+    display: flex;
+    background-color: #222;
+}
+.lxwm li:nth-child(1) {
+    height: 60px;
+    line-height: 60px;
+    color: #eee;
+    font-size: 35px;
+    border-bottom: 1px dashed #555;
+    width: 400px;
+}
+.lxwm li:nth-child(n+2) {
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+    font-size: 25px;
+}
+
+/* 版权 */
+.bq {
+    background-color: #000;
+    height: 100px;
+}
+.bq p {
+    height: 100px;
+    line-height: 100px;
+    color: #aaa;
+    text-align: center;
+    font-size: 20px;
+}
